@@ -23,7 +23,7 @@ struct ContentView: View {
                 Spacer()
                 Button("Cancel") {
                     
-                }.buttonStyle(SpecialButtonStyle(actionType: .cancel))
+                }.buttonStyle(SpecialButtonStyle(actionType: .cancel, withImage: false))
                 Button("OK") {
                     
                 }.buttonStyle(SpecialButtonStyle(actionType: .confirm))
